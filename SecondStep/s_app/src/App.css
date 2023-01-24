@@ -1,0 +1,93 @@
+
+body{
+  padding:0;
+  margin:0;
+  background-color: rgb(245, 245, 245);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(72, 72, 72);
+  padding:10px 50px;
+}
+header #logo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+h1{
+  color:white;
+  text-transform: uppercase;
+}
+section{
+  margin: 0 50px;
+}
+header h2{
+  font-size: 2em;
+  color: rgb(226, 234, 5);
+  padding: 0;
+  margin: 0;
+}
+header .spanLogo{
+  color: rgb(240, 206, 11);
+  
+font-style: oblique;
+}
+
+.header-logo{
+  width: 60px;
+} 
+
+.complited{
+  box-shadow:4px 4px 10px rgba(89, 255, 0, 0.3) ;
+}
+
+.incomplited{
+  box-shadow:4px 4px 10px rgba(255, 0, 0, 0.3);
+}
+
+ul{
+
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  
+}
+ul li {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  margin: 5px;
+  /* border-radius: 10px; */
+  min-width: 240px;
+  transition: 0.5s;
+}
+ul li:hover{
+  background-color: rgb(236, 236, 236);
+}
+ul li div{
+  display: flex;
+  justify-content: center;
+}
+button{
+  
+  background-color:rgb(0, 21, 255);
+  margin: 5px;
+  border: 0;
+  border-radius: 7px;
+  padding: 5px 10px;
+  color: rgb(255, 255, 255);
+  width: 40%;
+  font-weight: 700;
+  align-self: center;
+
+}
+
